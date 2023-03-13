@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-03 09:37:41 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MTA6MDU6MzUgw5ZTOzMyNTg="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDM7MDk6Mzc6NDEgw5ZTOzQ7MzM4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, top, sayac" type="Integer" array="False" size=""/>
+            <assign variable="top" expression="0"/>
+            <assign variable="s1" expression="1"/>
+            <assign variable="sayac" expression="1"/>
+            <output expression="&quot;&#304;&#351;lemi Bitirmek i&#231;in 0 Giririniz&quot;" newline="True"/>
+            <while expression="s1!=0">
+                <output expression="sayac &amp;&quot;. say&#305;y&#305; Giriniz.&quot;" newline="True"/>
+                <input variable="s1"/>
+                <assign variable="top" expression="top+s1"/>
+                <assign variable="sayac" expression="sayac+1"/>
+            </while>
+            <assign variable="sayac" expression="sayac-2"/>
+            <output expression="sayac &amp; &quot; Tane Say&#305;n&#305;n Toplam&#305;: &quot; &amp; top" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

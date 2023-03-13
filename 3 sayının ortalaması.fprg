@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-01 09:52:59 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MDk6MzY6MjMgw5ZTOzMyNjY="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MDk6NTI6NTkgw5ZTOzE7MzM4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayilarinortalamasi, sayi1, sayi2, sayi3" type="Real" array="False" size=""/>
+            <output expression="&quot;1. Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;2. Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <output expression="&quot;3. Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi3"/>
+            <assign variable="sayilarinortalamasi" expression="(sayi1 + sayi2 + sayi3)/3"/>
+            <output expression="&quot;3 Say&#305;n&#305;n Ortalamas&#305;: &quot; &amp; sayilarinortalamasi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-01 11:19:35 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MTA6NTY6MjMgw5ZTOzMyNjA="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MTE6MTk6MzUgw5ZTOzE7MzM3MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, s2, s3, byukSayi" type="Real" array="False" size=""/>
+            <output expression="&quot;Say&#305; 1'i Giriniz&quot;" newline="True"/>
+            <input variable="s1"/>
+            <output expression="&quot;Say&#305; 2'yi Giriniz&quot;" newline="True"/>
+            <input variable="s2"/>
+            <output expression="&quot;Say&#305; 3'&#252; Giriniz&quot;" newline="True"/>
+            <input variable="s3"/>
+            <if expression="s1&gt;s2">
+                <then>
+                    <if expression="s1&gt;s3">
+                        <then>
+                            <output expression="s1 &amp; &quot; En B&#252;y&#252;k Say&#305;d&#305;r&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="s3 &amp; &quot; En B&#252;y&#252;k Say&#305;d&#305;r&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="s3&gt;s2">
+                        <then>
+                            <output expression="s3 &amp; &quot; En B&#252;y&#252;k Say&#305;d&#305;r&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="s2 &amp; &quot; En B&#252;y&#252;k Say&#305;d&#305;r&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

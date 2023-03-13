@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-02 03:44:05 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MDM6MjE6MTYgw5ZTOzMyNTc="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MDM6NDQ6MDUgw5ZTOzE7MzM2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ort, n1, n2, n3" type="Real" array="False" size=""/>
+            <output expression="&quot;1. Notu Giriniz.&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;2. Notu Giriniz&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;3. Notu Giriniz&quot;" newline="True"/>
+            <input variable="n3"/>
+            <assign variable="ort" expression="(n1+n2+n3)/3"/>
+            <if expression="ort&gt;=45">
+                <then>
+                    <if expression="ort&gt;=70">
+                        <then>
+                            <output expression="&quot;Ortalaman&#305;z: &quot; &amp; ort &amp; &quot; Pekiyi, Ge&#231;tiniz&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Ortalaman&#305;z: &quot; &amp; ort &amp; &quot; &#304;yi, Ge&#231;tiniz&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Ortalaman&#305;z: &quot; &amp; ort &amp; &quot; Zay&#305;f, Kald&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

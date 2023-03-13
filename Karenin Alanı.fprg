@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-01 09:36:18 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MDk6MjY6NTYgw5ZTOzMyNzE="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MDk6MzY6MTggw5ZTOzE7MzM3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kenar, alan" type="Integer" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen Karenin Bir Kenar&#305;n&#305; Giriniz&quot;" newline="True"/>
+            <input variable="kenar"/>
+            <assign variable="alan" expression="kenar*kenar"/>
+            <output expression="&quot;Karenin Alan&#305;: &quot; &amp; alan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

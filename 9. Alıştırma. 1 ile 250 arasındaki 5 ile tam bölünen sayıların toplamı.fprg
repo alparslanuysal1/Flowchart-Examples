@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-02 06:06:28 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MDU6Mzg6MTkgw5ZTOzMyNzA="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MDY6MDY6Mjggw5ZTOzY7MzM3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="top, i" type="Integer" array="False" size=""/>
+            <assign variable="top" expression="0"/>
+            <for variable="i" start="0" end="250" direction="inc" step="5">
+                <output expression="i" newline="True"/>
+                <assign variable="top" expression="top+i"/>
+            </for>
+            <output expression="&quot;1 ile 250 aras&#305;ndaki 5 ile b&#246;l&#252;nebilen say&#305;lar&#305;n toplam&#305;: &quot; &amp; top" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

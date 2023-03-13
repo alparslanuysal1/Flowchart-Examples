@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-01 10:49:41 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MTA6MTU6NDMgw5ZTOzMyNTc="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MTA6NDk6NDEgw5ZTOzE7MzM3MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kdvsizFiyat, kdvliFiyat" type="Real" array="False" size=""/>
+            <output expression="&quot;&#220;r&#252;n&#252;n KDV'li Fiyat&#305;n&#305; Giriniz.&quot;" newline="True"/>
+            <input variable="kdvliFiyat"/>
+            <if expression="kdvliFiyat&gt;0">
+                <then>
+                    <assign variable="kdvsizFiyat" expression="kdvliFiyat - kdvliFiyat*0.1525423728813559"/>
+                    <output expression="&quot;KDV Hari&#231; Fiyat: &quot; &amp; kdvsizFiyat" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;L&#252;tfen S&#305;f&#305;rdan B&#252;y&#252;k Bir Say&#305; Giriniz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

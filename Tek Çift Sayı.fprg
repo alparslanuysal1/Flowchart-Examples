@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-01 10:56:10 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MTA6NDk6NDQgw5ZTOzMyNjU="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDE7MTA6NTY6MTAgw5ZTOzE7MzM2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Real" array="False" size=""/>
+            <output expression="&quot;Say&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <if expression="sayi%2==0">
+                <then>
+                    <output expression="&quot;&#199;ift Say&#305;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tek Say&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-02 10:05:31 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MDk6NDI6NTMgw5ZTOzMyNjc="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MTA6MDU6MzEgw5ZTOzE7MzM2Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, fakt, i" type="Real" array="False" size=""/>
+            <output expression="&quot;Bir Say&#305; Giriniz&quot;" newline="True"/>
+            <input variable="s1"/>
+            <assign variable="fakt" expression="1"/>
+            <for variable="i" start="s1" end="1" direction="dec" step="1">
+                <assign variable="fakt" expression="fakt*i"/>
+                <output expression="i" newline="True"/>
+            </for>
+            <output expression="s1 &amp;&quot;!=&quot;&amp;fakt&amp;&quot;'dir&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

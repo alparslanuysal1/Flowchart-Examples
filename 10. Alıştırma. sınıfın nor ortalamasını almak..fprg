@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MINI-LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-02 09:42:45 &#214;S"/>
+        <attribute name="created" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MDk6MjI6MTMgw5ZTOzMyNjE="/>
+        <attribute name="edited" value="TUlOSS1MRU5PVk87REVTS1RPUC1RMzRESFAwOzIwMjMtMDMtMDI7MDk6NDI6NDUgw5ZTOzI7MzM3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="puan, top, ort" type="Real" array="False" size=""/>
+            <assign variable="top" expression="0"/>
+            <for variable="i" start="1" end="20" direction="inc" step="1">
+                <output expression="i&amp;&quot;. &#214;&#287;rencinin notunu giriniz.&quot;" newline="True"/>
+                <input variable="puan"/>
+                <assign variable="top" expression="top+puan"/>
+            </for>
+            <assign variable="ort" expression="top/(i-1)"/>
+            <output expression="&quot;S&#305;n&#305;f&#305;n not ortalamas&#305;: &quot; &amp;ort" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
